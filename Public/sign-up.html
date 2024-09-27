@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sign-up.css">  
+    <script src="signup.js" defer></script> <!-- Add defer to load JS after HTML -->
+</head>
+<body>
+    <div class="container">
+        <div class="title">REGISTER</div>
+        <form id="signup-form" action="#" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details"><b>First Name</b></span>
+                    <input type="text" placeholder="First name" id="first-name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Last Name</b></span>
+                    <input type="text" placeholder="Last name" id="last-name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Email Address</b></span>
+                    <input type="text" placeholder="Email" id="email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Mobile Number</b></span>
+                    <input type="text" placeholder="Mobile number" id="mobile" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Password</b></span>
+                    <input type="password" placeholder="Password" id="password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Re-enter password</b></span>
+                    <input type="password" placeholder="Re-enter password" id="confirm-password" required>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Sign-Up">
+            </div>
+            <div class="register-link">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
