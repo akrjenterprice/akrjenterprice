@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node yourApp.js"
+    "start": "node mainserver.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
